@@ -1,9 +1,34 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Marc Grenier</title>
-	</head>
-	<body>
-		Hello world
-	</body>
-</html>
+---
+layout: default
+---
+<div class="container">			
+	<!-- Projects -->
+	<div class="section-title index-section"><i class="fa fa-code-fork"></i>Personnal projects</div>
+		
+	<div class="row">
+		{% for project in site.projects %}		
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="project-box">
+					<a href="{{ project.url }}">
+						{{ project.content }}
+						<div class="project-box-detail">
+							<span>{{ project.name }}</span>		
+							<p class="text-muted">{{ project.description }}</p>			
+						</div>
+					</a>
+				</div>		
+			</div>
+		{% endfor %}		
+	</div>
+
+	<!-- Skils -->
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="section-title"><i class="fa fa-code"></i> Skills</div>
+			<canvas id="skillChart" width="400" height="150"></canvas>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="{{ "/assets/js/Chart.bundle.min.js" | prepend:site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/skills.js" | prepend:site.baseurl }}"></script>
