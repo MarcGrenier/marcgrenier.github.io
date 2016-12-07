@@ -15,29 +15,29 @@ projects:
     name: Code Name
     description: Android table game
     content: '<div class="image blue"><i class="fa fa-user-secret"></i></div>'
-    url: "/project/codename/"
+    permalink: "/project/codename/"
   -project2:
     name: Rantalk
     description: Talk to random people
     content: <div class="image green"><i class="fa fa-comments"></i></div>
-    url: /project/rantalk
+    permalink: /project/rantalk
   -project3:
     name: Picmodifier
     description: Photo editor
     content: <div class="image amber"><i class="fa fa-camera-retro"></i></div>
-    url: /project/picmodifier/
+    permalink: /project/picmodifier/
   -project4:
     name: Minesweeper
     description: Javascript game
     content: <div class="image orange"><i class="fa fa-gamepad"></i></div>
-    url: /project/minesweeper
+    permalink: /project/minesweeper
   -project5:
     name: Asteroïd
     description: Android Survival Game
     content: <div class="image black"><img src="/assets/images/asteroid1.png"/></div>
-    url: /project/asteroid/
+    permalink: /project/asteroid/
   -project6:
     name: AreaB51
     description: Multiplayer third-person shooter
     content: <div class="image red"><img src="/assets/images/areab51.gif"/></div>
-    url: /project/areab51/
+    permalink: /project/areab51/
