@@ -14,8 +14,8 @@ projects:
   -project1:
     name: Code Name
     description: Android table game
-    content: <div class="image blue"><i class="fa fa-user-secret"></i></div>
-    url: /project/codename/
+    content: '<div class="image blue"><i class="fa fa-user-secret"></i></div>'
+    url: '/project/codename/'
   -project2:
     name: Rantalk
     description: Talk to random people
