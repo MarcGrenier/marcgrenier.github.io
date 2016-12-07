@@ -1,0 +1,93 @@
+.gameOver{
+	color:red;
+	width:100%;
+	font-size: 80px;
+	position: relative;
+	top:-390px;
+	text-align: center;
+}
+
+.carreCache, .carreVisible, .mine, .flag {
+	float:left;
+	width: 5%;
+	height: 30px;
+	border:1px solid black;
+}
+
+.carreCache{
+	background-color: #AAA;
+	box-shadow:inset 2px 2px #DBDBDB,
+			   inset -2px -2px #808080;
+	
+}
+.carreVisible{
+	background-color: #8F8F8F;
+	font-weight: bold;
+	text-align:center;
+	box-shadow: inset 2px 2px #686868,
+				inset -2px -2px #AAA;
+}
+
+.mine{
+	background-image:url('../images/minesweeper_icon.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px 20px;
+	background-color: #AAA;
+}
+
+.flag{
+	font: normal normal normal 14px/1 FontAwesome;
+	text-rendering:auto;
+	background-color: #8F8F8F;
+	box-shadow: inset 1px 1px 0px 2px #686868,
+				inset -1px -1px 0px 2px #AAA;
+	text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+}
+.flag:before{
+	content: "\f024";
+	color:red;
+}
+
+.infoBarre{
+	float:left;
+	width:50%;
+	border:1px solid black;
+	background-color:white;
+	color:red;
+	font-size:20px;
+	text-align:center;
+}
+
+.infoBarre h5{
+	padding-top:3px; 
+	color:black;
+	font-weight: 700;
+}
+
+.one{
+	color:blue;
+}
+.two{
+	color:green;
+}
+.three{
+	color:red;
+}
+.four{
+	color:darkblue;
+}
+.five{
+	color:darkred;
+}
+.six{
+	color:lightgreen;
+}
+
+/************************************Chat*******************************/
+
+.minesweeper{
+	margin-top: 20px;
+}
