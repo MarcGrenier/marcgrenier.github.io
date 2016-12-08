@@ -34,10 +34,10 @@ projects:
   - project5:
     name: Asteroïd
     description: Android Survival Game
-    content: <div class="image black"><img src="/assets/images/asteroid1.png"/></div>
+    content: <div class="image black"><img src="/assets/images/asteroid1.png" alt="Asteroid icon"/></div>
     permalink: /project/asteroid/
   - project6:
     name: AreaB51
     description: Multiplayer third-person shooter
-    content: <div class="image red"><img src="/assets/images/areab51.gif"/></div>
+    content: <div class="image red"><img src="/assets/images/areab51.gif" alt="areaB51 character"/></div>
     permalink: /project/areab51/
