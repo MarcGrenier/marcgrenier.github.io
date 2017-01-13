@@ -1,17 +1,27 @@
 <head>
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
     <meta name="author" content="Marc Grenier">
-	<meta name="description" content="Personnal portfolio of Marc Grenier.">
+	<meta name="description" content="Portfolio of Marc Grenier which presents android, web, C++ and python projects">
+    <meta name="keywords" content="Marc, Grenier, Marc Grenier, android developer, android, portfolio">
+
+    <!-- Open graph -->
+    <meta property="og:url" content="http://marcgrenier.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Marc Grenier | Android developer">
+    <meta property="og:description" content="Portfolio of Marc Grenier which presents android, web, C++ and python projects">
+    <meta property="og:site_name" content="Portfolio of Marc Grenier">
 
     <!-- CSS -->
-	<link href="{{ "/assets/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/assets/css/font-awesome.min.css" | prepend:site.baseurl }}" rel="stylesheet">
-	<link href="{{ "/assets/css/common.css" | prepend:site.baseurl }}" rel="stylesheet">
+	<link href="{{ "assets/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "assets/css/font-awesome.min.css" | prepend:site.baseurl }}" rel="stylesheet">
+	<link href="{{ "assets/css/common.css" | prepend:site.baseurl }}" rel="stylesheet">
 
     <!-- Javascript -->
-	<script type="text/javascript" src="{{ "/assets/js/jquery-1.11.1.min.js" | prepend:site.baseurl }}"></script>
-	<script type="text/javascript" src="{{ "/assets//js/bootstrap.min.js" | prepend:site.baseurl }}"></script>
+	<script type="text/javascript" src="{{ "assets/js/jquery-1.11.1.min.js" | prepend:site.baseurl }}"></script>
+	<script type="text/javascript" src="{{ "assets/js/bootstrap.min.js" | prepend:site.baseurl }}"></script>
 </head>
