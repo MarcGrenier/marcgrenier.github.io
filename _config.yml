@@ -1,7 +1,7 @@
 # Site settings
 title: Marc Grenier | Android developer
-baseurl: http://marcgrenier.github.io/
-url: http://marcgrenier.github.io/
+baseurl: https://marcgrenier.github.io/
+url: https://marcgrenier.github.io/
 
 permalink: /404.html
 
